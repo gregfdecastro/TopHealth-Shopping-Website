@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+   nav .logo a{
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;  
+      
+    }
+/*product logo font*/
+
+.tophealth a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+
+
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+  }
+  nav .logo {
+    display: flex;
+  align-items: center;
+  justify-content: center
+  }
+
+  nav .logo img{
+    max-width: 100%
+  }
+
+  .img{
+    flex-basis: 40%
+  }
+
+  nav .logo a{
+    font-size: 20px;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  nav ul li a{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  
+  /* css for button */
+  nav .navLinks button{
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    border-style: solid;
+    border-color: #2691d9;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  nav .navLinks button:hover{
+    color:#2691d9;
+  }
+
+  nav ul li a:hover{
+    color: #2691d9;
+  }
+  nav .menubtn{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+  }
+   
+  /* Dropdown Button */
+.fa fa-user {
+  float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 40px;
+    padding-top: 20px; 
+   color:  #2691d9;
+}
+
+.dropdown .fa fa-user:hover{
+  color: #2691d9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #4dabeb;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+   
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+    margin-top: 8%;
+  }
+  .row .column1 {
+    padding-right: 50px;
+
+  }
+
+  .row .column1 button:hover{
+    color:#2691d9;
+  }
+
+  .column1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#2691d9
+  }
+  .column1 p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  /*Sign Up Button*/
+  .column1 button {
+    width: 150px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #2691d9;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .column2 img{
+    display: block;
+    margin-right: 50px;
+    
+  }
+  
+
+  .rights {
+    margin-left: 43%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    
+  }
+/*Search Bar*/
+  .topnav  {
+    width: 100%;
+    text-align: center;
+    border: #2691d9;
+    position: absolute;
+    
+  }
+/*Search Bar */
+  .topnav  input{
+    
+    margin-top: 1%;
+    height: 38px;
+    width: 20%;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #2691d9;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-left: 39%;
+    padding-left: 10px;
+
+  }
+
+  
+  
+  
+  /* Shopping Cart */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+    padding-top: 20px; 
+   color:  #2691d9;
+   margin-top: -2px;
+  }
+
+  .topnav a:hover{
+    color: black;
+  }
+
+  /*Banner Css*/
+
+  .banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .rated p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+/*products (Categories)*/
+  .rated2 label{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+
+
+
+  /*Main Contents (Top Rated Products)*/
+   .content img{
+    margin-left: 25%;
+
+   }
+
+  .checked {
+    color: orange;
+  }
+
+  .content{
+    
+    padding-top: 30px;
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    float: center;
+    text-align: left;
+    background: #f2f2f2;
+    border-radius: 5%;
+    counter-reset: none;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: #2980b9;
+    margin-left: 5%;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0px;
+}
+
+fieldset{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: none;
+  justify-content: center;
+  
+}
+
+.content h2{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content h3{
+  text-align: center;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h4{
+  text-align: center;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*ABOUT CSS*/
+.about h2{
+  text-align: center;
+  margin-top: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about p{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*ABOUT (Profile CSS)*/
+
+.names{
+  width: 50%;
+    min-width: 200px;
+    margin: auto;
+}
+
+.names img{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  border-radius: 50%;
+}
+
+.names pre{
+  
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+nav .names{
+  width: 20%;
+  height: 20%;
+  float: center;
+  text-align: center;
+  counter-reset: none;
+  margin-right: 0;
+  margin-bottom: 30px;
+   margin-left: 0;
+}
+
+.rights2{
+  margin-top: 34%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.rightsland{
+  margin-top: 12%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  color: black;
+}
+
+.rightshospitals{
+  margin-top: 15%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.rights4 a{
+  font-weight: 100;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 5%;
+  margin-top: -5%;
+}
+
+.rights4 {
+  margin-top:45%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.category h2{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.category h3{
+  text-align: center;
+  margin-top: 1%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.content h5{
+  text-align: center;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+  width: 10%;
+  min-width: 300px;
+  margin: auto;
+  height: 20%;
+  min-height: 300px;
+}
+/*Products Buttons*/
+
+
+
+.button_1{
+  color: white;
+  margin-left: 25%;
+  margin-right: 50%;
+  width: 50%;
+  border-style: none;
+  background-color:#2691d9;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%; 
+}
+
+.button_1:hover{
+  color: white;
+  background-color: #01568f;
+}
+
+.button_2{
+  color: white;
+  margin-left: 25%;
+  margin-right: 50%;
+  width: 50%;
+  border-style: none;
+  background-color:#2691d9;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.button_2:hover{
+  color: white;
+  background-color: #01568f;
+}
+
+.button_3{
+  color: white;
+  margin-left: 25%;
+  margin-right: 50%;
+  width: 50%;
+  border-style: none;
+  background-color:#2691d9;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.button_3:hover{
+  color: white;
+  background-color: #01568f;
+}
+
+/*CSS for Contact Page*/
+
+/*Form in Contact*/
+
+.formcontact form{
+  margin-left: 30%;
+  margin-top: -3%;
+}
+
+.dropdown-content a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+}
+
+
+.column3 img{
+  
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left: 5%;
+    margin-top: 30%;
+
+}
+
+ .about3 h2{
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+
+.banner img{
+  border-radius: 20px;
+  border-style: solid;
+  margin-top: 0%;
+}
+
+.rated p{
+  margin-top: 3%;
+}
+/*Search Bar home*/
+
+.navSearch form{
+  margin-left:0; padding:0px;
+  text-align:center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+.center td {
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.center tr{
+  text-align: center;
+ 
+}
+
+.Ptable {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  font-size: large;
+
+  
+}
+.Ptable td {
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.Ptable tr{
+  text-align: center;
+ 
+}

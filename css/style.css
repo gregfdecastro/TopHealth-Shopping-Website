@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    padding: 10px;
+    border: 2px solid #2691d9;
+    border-radius: 10px;
+     }
+  
+/*css for contact logo*/
+.logo-contact a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+    .link{
+      color: #2691d9;
+      font-weight: 100;
+  }
+  
+  input[type="text"], input[type="password"], input[type="number"], input[type="button"], input[type="email"]{
+    width: 100%;
+    border: 2px solid #c0c0c0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px
+  }
+
+
+
+    #btn{
+        cursor: pointer;
+        background-color:#2691d9;
+        color: #e9f4fb;
+        font-weight: 600;
+        outline: none;
+    }
+    
+  
+    .box h1, h2, h3, h4, h5, h6{
+        text-align: center;
+        margin: 5px 5px;
+    }
+
+ 
+
+a{
+    text-decoration:none;
+    font-weight:600;
+    color: #00aced;
+}
+
+input[type="submit"]{
+    
+    cursor: pointer;
+        background-color:#2691d9;
+        color: #e9f4fb;
+        font-weight: 600;
+        outline: none;
+        width: 100%;
+    border: 2px solid #c0c0c0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px
+}
+
+
+.inner-box{
+    padding-top: 22%;
+}  
+
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
